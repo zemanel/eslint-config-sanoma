@@ -1,0 +1,18 @@
+{
+    "devDependencies": {},
+    "name": "eslint-config-sanoma",
+    "version": "0.1.0",
+    "description": "ESLint config for Sanoma Technology",
+    "main": "index.js",
+    "dependencies": {
+        "eslint": "^3.16.1",
+        "eslint-config-standard": "^7.0.0",
+        "eslint-plugin-promise": "^3.5.0",
+        "eslint-plugin-standard": "^2.0.1"
+    },
+    "scripts": {
+        "test": "eslint -c test/eslintrc.json index.js"
+    },
+    "author": "Jose Moreira <jose.moreira@sanoma.com>",
+    "license": "MIT"
+}

@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "amd": true,
+        "es6": false,
+        "node": true
+    },
+    "extends": [
+        "standard"
+    ],
+    "rules": {
+        "semi": [
+            2,
+            "always"
+        ],
+        "indent": [
+            "error",
+            4
+        ],
+        "camelcase": [
+            "off"
+        ],
+        "no-useless-escape": "off",
+        "keyword-spacing": [
+            "error",
+            {
+                "before": true,
+                "after": true
+            }
+        ]
+    }
+}
